@@ -8,12 +8,10 @@ bleach==4.1.0
 brotlipy==0.7.0
 cachetools==4.2.4
 certifi==2021.5.30
-cffi @ file:///tmp/build/80754af9/cffi_1625807838443/work
-chardet @ file:///tmp/build/80754af9/chardet_1607706746162/work
+cffi==1.15.0
+chardet==4.0.0
 click==8.1.7
-conda==4.10.3
-conda-package-handling @ file:///tmp/build/80754af9/conda-package-handling_1618262148928/work
-cryptography @ file:///tmp/build/80754af9/cryptography_1616769286105/work
+cryptography==3.4.8
 cycler==0.11.0
 debugpy==1.5.1
 decorator==5.1.0
@@ -30,7 +28,7 @@ google-auth==2.3.3
 google-auth-oauthlib==0.4.6
 grpcio==1.42.0
 huggingface-hub==0.24.7
-idna @ file:///home/linux1/recipes/ci/idna_1610986105248/work
+idna==3.3
 imageio==2.35.1
 importlib-metadata==4.8.2
 importlib-resources==5.4.0
@@ -87,21 +85,20 @@ ptyprocess==0.7.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycosat==0.6.3
-pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+pycparser==2.21
 Pygments==2.10.0
-pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1608057966937/work
+pyOpenSSL==21.0.0
 pyparsing==3.0.6
 pyrsistent==0.18.0
-PySocks @ file:///tmp/build/80754af9/pysocks_1605305779399/work
+PySocks==1.7.1
 python-dateutil==2.8.2
 pytz==2021.3
 PyWavelets==1.4.1
 PyYAML==6.0.2
 pyzmq==22.3.0
-requests @ file:///tmp/build/80754af9/requests_1608241421344/work
+requests==2.26.0
 requests-oauthlib==1.3.0
 rsa==4.8
-ruamel-yaml-conda @ file:///tmp/build/80754af9/ruamel_yaml_1616016699510/work
 safetensors==0.4.5
 scikit-image==0.21.0
 scikit-learn==1.1.0
@@ -110,8 +107,7 @@ Send2Trash==1.8.0
 sentry-sdk==2.14.0
 setproctitle==1.3.3
 setuptools-scm==6.3.2
-six @ file:///tmp/build/80754af9/six_1623709665295/work
-sklearn==0.0
+six==1.16.0
 smmap==5.0.1
 sniffio==1.2.0
 supervisor==4.2.2
@@ -125,10 +121,10 @@ threadpoolctl==3.5.0
 tifffile==2023.7.10
 timm==1.0.9
 tomli==1.2.2
-torch @ http://download.pytorch.org/whl/cu113/torch-1.10.0%2Bcu113-cp38-cp38-linux_x86_64.whl
-torchvision @ http://download.pytorch.org/whl/cu113/torchvision-0.11.1%2Bcu113-cp38-cp38-linux_x86_64.whl
+torch==1.10.0+cu113
+torchvision==0.11.1+cu113
 tornado==6.1
-tqdm @ file:///tmp/build/80754af9/tqdm_1625563689033/work
+tqdm==4.62.3
 traitlets==5.1.1
 typing-extensions==4.0.0
 tzdata==2024.2
